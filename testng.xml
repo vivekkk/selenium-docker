@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Default Suite" parallel="tests" Thread-count="5">
+
+    <test  name="seleniumWithGrid1">
+        <parameter name="keyword" value="firefox"/>
+        <classes>
+            <class name="FlibhtBookingTest"/>
+        </classes>
+    </test> <!-- seleniumWithGrid -->
+
+  <test thread-count="5" name="seleniumWithGrid2">
+    <parameter name="keyword" value="chrome"/>
+    <classes>
+        <class name="FlibhtBookingTest"/>
+    </classes>
+    </test>
+
+    <test thread-count="5" name="seleniumWithGrid3">
+        <parameter name="keyword" value="chrome"/>
+        <classes>
+            <class name="FlibhtBookingTest"/>
+        </classes>
+    </test>
+    <test thread-count="5" name="seleniumWithGrid4">
+        <parameter name="keyword" value="chrome"/>
+        <classes>
+            <class name="FlibhtBookingTest"/>
+        </classes>
+    </test>
+
+
+</suite> <!-- Default Suite -->
