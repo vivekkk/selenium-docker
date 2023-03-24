@@ -50,12 +50,18 @@ public class BaseTest {
         if(System.getProperty("HUB_HOST") != null){
             host = System.getProperty("HUB_HOST");
         }
+        if(System.getenv("HUB_HOST") != null){
+
+            host = System.getenv("HUB_HOST");
+        }
 
         String testName = ctx.getCurrentXmlTest().getName();
 
         String completeUrl = "http://" + host + ":4444/wd/hub";
         dc.setCapability("name", testName);
         this.driver = new RemoteWebDriver(new URL(completeUrl), dc);
+        System.out.println("refrence to driver"+ driver);
+
 
        /* DefaultDriverFactory defaultDriverFactory = new DefaultDriverFactory(Platform.WINDOWS);
         TemporaryFilesystem temporaryFilesystem = TemporaryFilesystem.getDefaultTmpFS();

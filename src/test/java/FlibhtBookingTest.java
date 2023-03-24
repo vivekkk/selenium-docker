@@ -1,3 +1,4 @@
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -19,11 +20,12 @@ public class FlibhtBookingTest  extends  BaseTest {
 
     public void testUserRegistration(HashMap<String, HashMap<String, String>> hash) throws InterruptedException, MalformedURLException {
 
-        userRegistrationPage = new UserRegistrationPage(driver);
-        userRegistrationPage.getURL(driver);
+        System.out.println("IInd refrence to driver"+ this.driver);
+        userRegistrationPage = new UserRegistrationPage(this.driver);
+        userRegistrationPage.getURL(this.driver);
         userRegistrationPage.enterUserRegistrationDetails(hash);
-        registrationConfirmation =userRegistrationPage.submit(driver);
-        flightBooking = registrationConfirmation.clickFlightsLink(driver);
+        registrationConfirmation =userRegistrationPage.submit(this.driver);
+        flightBooking = registrationConfirmation.clickFlightsLink(this.driver);
         Thread.sleep(5000);
         flightBooking.clickContBtn();
         System.out.println();

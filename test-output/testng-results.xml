@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-11T15:11:36 IST" name="Default Suite" finished-at="2023-03-11T15:13:04 IST" duration-ms="88540">
+    <groups>
+    </groups>
+    <test started-at="2023-03-11T15:11:36 IST" name="seleniumWithGrid3" finished-at="2023-03-11T15:12:03 IST" duration-ms="27069">
+      <class name="FlibhtBookingTest">
+        <test-method is-config="true" signature="initiateWebdriver(org.testng.ITestContext)[pri:0, instance:FlibhtBookingTest@7c7b252e]" started-at="2023-03-11T15:11:36 IST" name="initiateWebdriver" finished-at="2023-03-11T15:11:48 IST" duration-ms="11899" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@61322f9d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateWebdriver -->
+        <test-method signature="testUserRegistration(java.util.HashMap)[pri:0, instance:FlibhtBookingTest@7c7b252e]" started-at="2023-03-11T15:11:48 IST" name="testUserRegistration" data-provider="dp1" finished-at="2023-03-11T15:12:01 IST" duration-ms="13750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{enteruserInfo={password=abc@786, email=vivekkaushik@gmail.com}, contactInfo={firstName=Vivek, phone=9717986, lastname=kaushik, username=vivek}, mailingInformation={country=INDIA, address=C2-708, 7 Hills, city=Hyderabad, postalCode=500089, state=Telangana}}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserRegistration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FlibhtBookingTest@7c7b252e]" started-at="2023-03-11T15:12:01 IST" name="tearDown" finished-at="2023-03-11T15:12:03 IST" duration-ms="1326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- FlibhtBookingTest -->
+    </test> <!-- seleniumWithGrid3 -->
+    <test started-at="2023-03-11T15:11:36 IST" name="seleniumWithGrid4" finished-at="2023-03-11T15:12:23 IST" duration-ms="47755">
+      <class name="FlibhtBookingTest">
+        <test-method is-config="true" signature="initiateWebdriver(org.testng.ITestContext)[pri:0, instance:FlibhtBookingTest@692f203f]" started-at="2023-03-11T15:11:36 IST" name="initiateWebdriver" finished-at="2023-03-11T15:12:09 IST" duration-ms="33598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1ff4931d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateWebdriver -->
+        <test-method signature="testUserRegistration(java.util.HashMap)[pri:0, instance:FlibhtBookingTest@692f203f]" started-at="2023-03-11T15:12:09 IST" name="testUserRegistration" data-provider="dp1" finished-at="2023-03-11T15:12:22 IST" duration-ms="12931" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{enteruserInfo={password=abc@786, email=vivekkaushik@gmail.com}, contactInfo={firstName=Vivek, phone=9717986, lastname=kaushik, username=vivek}, mailingInformation={country=INDIA, address=C2-708, 7 Hills, city=Hyderabad, postalCode=500089, state=Telangana}}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserRegistration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FlibhtBookingTest@692f203f]" started-at="2023-03-11T15:12:22 IST" name="tearDown" finished-at="2023-03-11T15:12:23 IST" duration-ms="1190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- FlibhtBookingTest -->
+    </test> <!-- seleniumWithGrid4 -->
+    <test started-at="2023-03-11T15:11:36 IST" name="seleniumWithGrid1" finished-at="2023-03-11T15:12:44 IST" duration-ms="68202">
+      <class name="FlibhtBookingTest">
+        <test-method is-config="true" signature="initiateWebdriver(org.testng.ITestContext)[pri:0, instance:FlibhtBookingTest@223d2c72]" started-at="2023-03-11T15:11:36 IST" name="initiateWebdriver" finished-at="2023-03-11T15:12:29 IST" duration-ms="53592" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@710f4dc7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateWebdriver -->
+        <test-method signature="testUserRegistration(java.util.HashMap)[pri:0, instance:FlibhtBookingTest@223d2c72]" started-at="2023-03-11T15:12:29 IST" name="testUserRegistration" data-provider="dp1" finished-at="2023-03-11T15:12:42 IST" duration-ms="13004" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{enteruserInfo={password=abc@786, email=vivekkaushik@gmail.com}, contactInfo={firstName=Vivek, phone=9717986, lastname=kaushik, username=vivek}, mailingInformation={country=INDIA, address=C2-708, 7 Hills, city=Hyderabad, postalCode=500089, state=Telangana}}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserRegistration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FlibhtBookingTest@223d2c72]" started-at="2023-03-11T15:12:42 IST" name="tearDown" finished-at="2023-03-11T15:12:44 IST" duration-ms="1572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- FlibhtBookingTest -->
+    </test> <!-- seleniumWithGrid1 -->
+    <test started-at="2023-03-11T15:11:36 IST" name="seleniumWithGrid2" finished-at="2023-03-11T15:13:04 IST" duration-ms="88540">
+      <class name="FlibhtBookingTest">
+        <test-method is-config="true" signature="initiateWebdriver(org.testng.ITestContext)[pri:0, instance:FlibhtBookingTest@6f1de4c7]" started-at="2023-03-11T15:11:36 IST" name="initiateWebdriver" finished-at="2023-03-11T15:12:50 IST" duration-ms="74029" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@65e98b1c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateWebdriver -->
+        <test-method signature="testUserRegistration(java.util.HashMap)[pri:0, instance:FlibhtBookingTest@6f1de4c7]" started-at="2023-03-11T15:12:50 IST" name="testUserRegistration" data-provider="dp1" finished-at="2023-03-11T15:13:03 IST" duration-ms="13237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{enteruserInfo={password=abc@786, email=vivekkaushik@gmail.com}, contactInfo={firstName=Vivek, phone=9717986, lastname=kaushik, username=vivek}, mailingInformation={country=INDIA, address=C2-708, 7 Hills, city=Hyderabad, postalCode=500089, state=Telangana}}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserRegistration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FlibhtBookingTest@6f1de4c7]" started-at="2023-03-11T15:13:03 IST" name="tearDown" finished-at="2023-03-11T15:13:04 IST" duration-ms="1235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- FlibhtBookingTest -->
+    </test> <!-- seleniumWithGrid2 -->
+  </suite> <!-- Default Suite -->
+</testng-results>
