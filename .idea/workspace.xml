@@ -5,53 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c64fd311-5f05-498e-944d-f293b7ef9a3a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/healthcheck.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Default Suite/seleniumWithGrid1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Default Suite/seleniumWithGrid1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Default Suite/seleniumWithGrid2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Default Suite/seleniumWithGrid2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Default Suite/seleniumWithGrid3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Default Suite/seleniumWithGrid3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Default Suite/seleniumWithGrid4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Default Suite/seleniumWithGrid4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/bullet_point.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/collapseall.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/failed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/jquery-3.6.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-FlibhtBookingTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/navigator-bullet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/classes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/groups.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/methods-alphabetical.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/methods-not-run.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/methods.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/reporter-output.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/seleniumWithGrid1.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/seleniumWithGrid2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/seleniumWithGrid3.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/seleniumWithGrid4.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/testng.xml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/toc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/passed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/skipped.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-reports.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-reports.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-reports1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-reports2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FlibhtBookingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FlibhtBookingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +50,11 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lenovo\IdeaProjects\seleniumWithGrid" />
+    </key>
+  </component>
   <component name="RunManager" selected="TestNG.C:/Users/lenovo/IdeaProjects/seleniumWithGrid/testng.xml">
     <configuration name="C:/Users/lenovo/AppData/Local/JetBrains/IdeaIC2022.3/temp-testng-customsuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumWithGrid" />
