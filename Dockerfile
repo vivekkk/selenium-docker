@@ -37,8 +37,9 @@ COPY $pwd/target/selenium-docker.jar /usr/shre/udemy/
 COPY $pwd/target/selenium-docker-tests.jar  /usr/shre/udemy/
 COPY $pwd/target/libs /usr/shre/udemy/libs
 COPY testng.xml /usr/shre/udemy/
-ENTRYPOINT java -cp selenium-docker-tests.jar:selenium-docker.jar:libs/* org.testng.TestNG testng.xml
-
+COPY healthcheck.sh /usr/shre/udemy/
+VOLUME $pwd/target/gitrepooutput /usr/shre/udemy/
+ENTRYPOINT bin/sh
 #----------------------------------------------------------
 # FROM selenium/hub:3.14
 #RUN apk add openjdk8     
