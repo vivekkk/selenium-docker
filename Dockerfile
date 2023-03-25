@@ -33,12 +33,13 @@ RUN apk add openjdk17
 ENV PATH $PATH:/usr/lib/jvm/java-1.17-openjdk/bin/
 # ENV HUB_HOST=192.168.29.177
 WORKDIR /usr/shre/udemy
-COPY selenium-docker.jar /usr/shre/udemy/
-COPY selenium-docker-tests.jar  /usr/shre/udemy/
-COPY /libs /usr/shre/udemy/libs
+COPY $pwd/target/selenium-docker.jar /usr/shre/udemy/
+COPY $pwd/target/selenium-docker-tests.jar  /usr/shre/udemy/
+COPY $pwd/target/libs /usr/shre/udemy/libs
 COPY testng.xml /usr/shre/udemy/
-ENTRYPOINT java -cp selenium-docker-tests.jar:selenium-docker.jar:libs/* org.testng.TestNG testng.xml
-
+COPY healthcheck.sh /usr/shre/udemy/
+VOLUME $pwd/target/gitrepooutput /usr/shre/udemy/
+ENTRYPOINT bin/sh
 #----------------------------------------------------------
 # FROM selenium/hub:3.14
 #RUN apk add openjdk8     
