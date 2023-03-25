@@ -39,7 +39,7 @@ COPY $pwd/target/libs /usr/shre/udemy/libs
 COPY testng.xml /usr/shre/udemy/
 COPY healthcheck.sh /usr/shre/udemy/
 VOLUME $pwd/target/gitrepooutput /usr/shre/udemy/
-ENTRYPOINT bin/sh
+ENTRYPOINT sh healthcheck.sh
 #----------------------------------------------------------
 # FROM selenium/hub:3.14
 #RUN apk add openjdk8     
