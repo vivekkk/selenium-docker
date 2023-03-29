@@ -1,3 +1,5 @@
+//Jenkinsfile (Declarative Pipeline)
+
 pipeline {
     // master executor should be set to 0
     agent any
