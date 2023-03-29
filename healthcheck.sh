@@ -15,4 +15,5 @@ done
 java -cp selenium-docker.jar:selenium-docker-tests.jar:libs/* \
     -DHUB_HOST=$HUB_HOST \
     -DBROWSER=$BROWSER \
-    org.testng.TestNG $MODULE
+    org.testng.TestNG testng.xml
+    #modeule is hard coded in my script, but not in the course one.
