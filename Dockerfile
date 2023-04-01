@@ -29,7 +29,7 @@
 #----------------------------------------------------------------
 
 FROM alpine 
-RUN apk add openjdk17 dos2unix
+RUN apk add openjdk17 dos2unix curl jq
 ENV PATH $PATH:/usr/lib/jvm/java-1.17-openjdk/bin/
 # ENV HUB_HOST=192.168.29.177
 WORKDIR /usr/shre/udemy
