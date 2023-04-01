@@ -29,7 +29,7 @@
 #----------------------------------------------------------------
 
 FROM alpine 
-RUN apk add openjdk17
+RUN apk add openjdk17 dos2unix
 ENV PATH $PATH:/usr/lib/jvm/java-1.17-openjdk/bin/
 # ENV HUB_HOST=192.168.29.177
 WORKDIR /usr/shre/udemy
@@ -39,7 +39,7 @@ COPY $pwd/target/libs /usr/shre/udemy/libs
 COPY testng.xml /usr/shre/udemy/
 COPY healthcheck.sh /usr/shre/udemy/
 VOLUME $pwd/target/gitrepooutput /usr/shre/udemy/
-ENTRYPOINT sh healthcheck.sh
+ENTRYPOINT  dos2unix healthcheck.sh && sleep 1 && sh healthcheck.sh
 #----------------------------------------------------------
 # FROM selenium/hub:3.14
 #RUN apk add openjdk8     
