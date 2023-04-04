@@ -38,7 +38,7 @@ COPY $pwd/target/selenium-docker-tests.jar  /usr/shre/udemy/
 COPY $pwd/target/libs /usr/shre/udemy/libs
 COPY testng.xml /usr/shre/udemy/
 COPY healthcheck.sh /usr/shre/udemy/
-VOLUME $PWD/target/gitrepooutput /usr/shre/udemy/
+VOLUME ./target/gitrepooutput /usr/shre/udemy/
 ENTRYPOINT  dos2unix healthcheck.sh && sleep 1 && sh healthcheck.sh
 #----------------------------------------------------------
 # FROM selenium/hub:3.14
